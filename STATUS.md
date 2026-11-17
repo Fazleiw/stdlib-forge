@@ -8,11 +8,11 @@
 | feature | 600 (120/120 conformance checks) |
 | agent | 200 (15/15 MCP checks) |
 | perf | 200 (push 50, clone 50, read 50, write 50) |
-| perf_p50_us | 93773 |
+| perf_p50_us | 130635 (93773 on the previous run: machine noise) |
 | working | 1 |
 | replay | matched (state.json a0e98d49…f1445590, byte for byte) |
 
-Run at commit 7a251eb on 2026-11-17 (UTC). Groups: git 30/30, repos 15/15, issues 15/15,
+Final run at commit ad7d085 on 2026-11-17 (UTC); the same code scored 1000 at 7a251eb too. Groups: git 30/30, repos 15/15, issues 15/15,
 pulls 20/20, graphql 20/20, mcp 15/15, protocol 5/5.
 
 Local loop (`scripts/run-suite.sh`, macOS, node 25): push ~80-115 ms, clone ~25-35 ms,
